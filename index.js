@@ -1,2 +1,5 @@
 
-ReactDOM.render(<p>Hi, my name is Bob!</p>, document.getElementById('root'));
+ReactDOM.render(<ul>
+    <li>First thing</li>
+    <li>Second thing</li>
+</ul>, document.getElementById('root'));
