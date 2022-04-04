@@ -1,14 +1,21 @@
-const navbar = (
-    <nav>
+// import React from "react";
+// import ReactDOM from "react-dom";
+
+const info = (
+    <div>
+        <img src="./react-logo.png" width="120"></img>
         <h1>
-            Ilya's Website
+            Fun facts about React
         </h1>
         <ul>
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100K stars on Github</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
-    </nav>
+    </div>
 )
 
-ReactDOM.render(navbar, document.getElementById('root'))
+ReactDOM.render(info, document.getElementById('root'))
+
